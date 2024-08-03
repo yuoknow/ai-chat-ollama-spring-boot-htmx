@@ -13,7 +13,7 @@ body {
 }
 
 .chat-window {
-    width: 400px;
+    width: 600px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ body {
     flex: 1;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-right: 5px;
 }
 
@@ -55,7 +55,7 @@ body {
     background-color: #8c75d0;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -66,4 +66,39 @@ body {
 
 .input-area button:active {
     background-color: #8c75d0;
+}
+
+.bubble {
+    color: #35353b;
+    margin-bottom: 5px;
+    background: #f1edff;
+    font-size: 0.9em;
+    padding: 10px 10px 10px 12px;
+    border-radius: 10px;
+}
+
+.ellipsis {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #b7b7b7;
+    animation: bounce 1.3s linear infinite;
+}
+
+.one {
+    animation-delay: 0.6s;
+}
+.two {
+    animation-delay: 0.5s;
+}
+.three {
+    animation-delay: 0.8s;
+}
+
+@keyframes bounce {
+    30% { transform: translateY(-2px); }
+    60% { transform: translateY(0px); }
+    80% { transform: translateY(2px); }
+    100% { transform: translateY(0px); opacity: 0.5;  }
 }
