@@ -28,7 +28,6 @@ dependencies {
     implementation("io.pebbletemplates:pebble:3.2.2")
 
     compileOnly("org.projectlombok:lombok")
-    runtimeOnly("org.postgresql:postgresql")
     annotationProcessor("org.projectlombok:lombok")
 
 
