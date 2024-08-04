@@ -29,12 +29,13 @@ body {
     margin-bottom: 10px;
 }
 
-.message p {
-    background-color: #f0f0f0;
+.bubble p {
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 5px;
     display: inline-block;
     max-width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .input-area {
@@ -73,7 +74,7 @@ body {
     margin-bottom: 5px;
     background: #f1edff;
     font-size: 0.9em;
-    padding: 10px 10px 10px 12px;
+    padding: 5px 5px 5px 12px;
     border-radius: 10px;
 }
 
