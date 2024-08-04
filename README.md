@@ -1,6 +1,6 @@
 # AI chat with ollama spring-boot and htmx
 
-![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDBjYjl5cjRwNHl4aGNib2htbjJxcW1oeWQ3dWFmdTgwZGttZHg3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GVZWYOW5woUCo7YsMv/giphy.gif)
+https://github.com/user-attachments/assets/055f0084-cc4d-43b5-8496-3971fdce5ae0.mov
 
 ## Usage
 
